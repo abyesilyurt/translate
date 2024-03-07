@@ -15,7 +15,7 @@ func main() {
 		request.Filename = os.Args[2]
 		request.TargetLang = os.Args[1]
 	} else {
-		fmt.Println("Usage: go run main.go <lang> <filename>")
+		fmt.Println("Usage: translate <lang> <filename>")
 		return
 	}
 	bytes, err := TranslateDocument(request)
