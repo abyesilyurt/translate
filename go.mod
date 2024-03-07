@@ -1,4 +1,4 @@
-module github.com/abyesilyurt/translate-cli
+module github.com/abyesilyurt/translate
 
 go 1.20
 
